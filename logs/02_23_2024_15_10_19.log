@@ -1,0 +1,8 @@
+2024-02-23 15:10:19,584:INFO:logger:Creating new useful features out of the existing features
+2024-02-23 15:47:49,862:INFO:logger:Initialization has been done successfully
+2024-02-23 15:47:49,877:INFO:logger:Feature extraction from pickup date has been completed successfully
+2024-02-23 15:47:49,878:INFO:logger:Day Phase feature created successfully
+2024-02-23 15:47:49,879:INFO:logger:Distance feature created successfully
+2024-02-23 15:47:59,132:INFO:logger:Features created successfully
+2024-02-23 15:47:59,694:INFO:logger:Model loaded successfully
+2024-02-23 15:47:59,703:INFO:logger:Failed with error : predict.html

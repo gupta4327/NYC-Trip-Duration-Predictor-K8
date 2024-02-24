@@ -1,0 +1,11 @@
+version: '3'
+services:
+  ml_service:
+    image: ml_api_service:v1
+    ports:
+      - "8082:8082"
+
+  frontend_service:
+    image: trip_frontend_service:v1
+    ports:
+      - "8080:8080"

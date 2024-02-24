@@ -1,0 +1,7 @@
+2024-02-23 15:50:13,850:INFO:logger:Creating new useful features out of the existing features
+2024-02-23 15:50:21,522:INFO:logger:Initialization has been done successfully
+2024-02-23 15:50:21,535:INFO:logger:Feature extraction from pickup date has been completed successfully
+2024-02-23 15:50:21,535:INFO:logger:Day Phase feature created successfully
+2024-02-23 15:50:21,540:INFO:logger:Distance feature created successfully
+2024-02-23 15:50:23,721:INFO:logger:Features created successfully
+2024-02-23 15:50:23,845:INFO:logger:Model loaded successfully
