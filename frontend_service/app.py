@@ -27,7 +27,7 @@ def predict():
     form_data['pickup_datetime'] = request.form.get('pickup_datetime')
     form_data['store_and_fwd_flag'] = request.form.get('store_and_fwd_flag')
     try:
-        duration = requests.get("""http://ml_service:8082/api/trip_predictor?
+        duration = requests.get("""http://mlservice:8082/api/trip_predictor?
                                 vendor_id={}&pickup_latitude={}&pickup_longitude={}
                                 &dropoff_latitude={}&dropoff_longitude={}
                                 &pickup_datetime={}&store_and_fwd_flag={}""".format( form_data['vendor_id'], 

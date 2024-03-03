@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontendapp
+spec:
+  selector:
+    matchLabels:
+      app: frontend_predictor
+  template:
+    metadata: 
+      name: frontend_pod
+      labels: 
+        app: frontend_predictor
+    spec:
+      containers:
+      - name: frontendcontainer
+        image: amangupta4327/trip_frontend_service:v1
+        resources:
+          limits:
+            cpu: "200m"
+            memory: "128Mi"
+        ports:
+            - containerPort: 8080
+      

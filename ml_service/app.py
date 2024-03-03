@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-    return None
+    return "Hello world"
 
 
 @app.route('/api/trip_predictor')

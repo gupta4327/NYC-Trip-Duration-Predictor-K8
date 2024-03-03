@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ml-api
+spec:
+  selector:
+    matchLabels:
+      app: ml_api
+  template:
+    metadata:
+      labels:
+        app: ml_api
+    spec:
+      containers:
+      - name: trippredict-mlserver
+        image: amangupta4327/ml_api_service:v1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+        ports:
+        - containerPort: 8082
+
